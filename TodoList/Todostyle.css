@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: burlywood;
+  min-height: 100dvh;
+}
+h1 {
+  color: pink;
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  background-color: aliceblue;
+  padding: 3rem;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.headerText {
+  text-align: center;
+}
+#TodoText {
+  font-size: 30px;
+  border-radius: 10px;
+  padding-left: 1rem;
+}
+#add {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 3px 4px;
+}
